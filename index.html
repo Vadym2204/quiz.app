@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+
+        <main class="main">
+            <div class="warning hidden">
+                В тесті немає питань!, <br> заповніть і вертайтесь!
+            </div>
+            <div class="quiz hidden">
+                <h2 class="quiz__header"> Тест ЛМВ (1 рівень)</h2>
+                <div class="quiz__progress">
+                    <div class="quiz__progress-inner"></div>
+                </div>
+                <div class="quiz__content">
+                    <h3 class="quiz__title">Питання 1?</h3>
+                    <ul class="quiz__list">
+                        <li class="quiz__option"> Відповідь 1</li>
+                        <li class="quiz__option"> Відповідь 2</li>
+                        <li class="quiz__option"> Відповідь 3</li>
+                        <li class="quiz__option"> Відповідь 4</li>
+                    </ul>
+                </div>
+                <div class="quiz__footer">
+                    <div class="quiz__total">
+                        1 з 70
+                    </div>
+                    <button class="quiz__next-btn">Наступний</button>
+                </div>
+            </div>
+            <div class="result hidden">
+                <div class="result__img">
+                    <img src="./img/the-end.png" alt="">
+                </div>
+                <div class="result__title"> Ви закінчили тест!</div>
+                <div class="result__text">
+
+                </div>
+                <div class="result__btn">
+                    <a class="result__restart" href="/">Почати Заново</a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+
+        </footer>
+
+    </div> 
+    <script src="js/questions.js"></script>
+    <script src="js/main.js"></script>
+   
+</body>
+</html>
